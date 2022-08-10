@@ -1,0 +1,149 @@
+@import url("fonts.css");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  color: #6c7279;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/*==================CONTAINER
+====================================================*/
+
+.wrap-banner {
+  background: url("../images/background-banner.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 750px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/*==================HEADER
+====================================================*/
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+  align-items: center;
+
+  border-bottom: 1px solid #515369;
+}
+
+/*==================NAV
+====================================================*/
+
+.nav {
+  display: flex;
+  gap: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  color: #ffff;
+  text-decoration: none;
+  opacity: 0.75;
+
+  transition: opacity 0.1s linear;
+}
+
+.nav__link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/*==================INTRO
+====================================================*/
+
+.intro {
+  padding-top: 100px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro__inner {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.intro__subtitle {
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+/*==================BUTTON
+====================================================*/
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  padding: 15px 40px;
+  cursor: pointer;
+
+  transition: background 0.1s linear;
+}
+
+.btn--red {
+  background-color: #e84545;
+}
+
+.btn--red:hover {
+  background-color: #e80b0b;
+}
