@@ -39,8 +39,9 @@ p {
 
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /*==================HEADER
@@ -247,3 +248,138 @@ p {
   font-size: 14px;
   color: #ffffff;
 }
+
+/*==================TEAMS
+====================================================*/
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px -15px;
+}
+
+.teams__item {
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.teams__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  margin-bottom: 20px;
+}
+
+.teams__name {
+  font-size: 22px;
+  color: #2d3033;
+
+  margin-bottom: 8px;
+}
+
+.teams__prof {
+  font-size: 13px;
+  color: #e84545;
+  text-transform: uppercase;
+
+  margin-bottom: 15px;
+}
+
+.teams__text {
+  font-size: 14px;
+  color: #6c7279;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/*==================SOCIAL
+====================================================*/
+
+.social {
+  display: flex;
+}
+
+.social__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+
+  background-color: #ffffff;
+  border: 1px solid #e8ecee;
+
+  transition: background-color 0.2s linear;
+}
+
+.social__item:hover {
+  background-color: #e8ecee;
+}
+
+.social__icon {
+  height: 18px;
+  fill: #6c7279;
+
+  transition: fill 0.2s linear;
+}
+
+.social__icon:hover {
+  fill: #e84545;
+}
+
+/*==================TESTIMONIALS
+====================================================*/
+
+.testimonials {
+  background-color: #53354a;
+  overflow: hidden;
+}
+
+.testimonials__item {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.testimonials__img {
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.review__img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+
+  transform: translateY(-50%);
+}
+
+.testimonials__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.review__content {
+  font-family: "Cardo", sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.review__author {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
