@@ -355,7 +355,7 @@ p {
 }
 
 .social--footer .social__icon {
-  fill: #ffffff ;
+  fill: #ffffff;
 }
 
 .social--footer .social__icon:hover {
@@ -373,7 +373,6 @@ p {
 .testimonials__item {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .testimonials__img {
@@ -468,14 +467,14 @@ p {
 }
 
 .footer__address {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   font-style: normal;
   font-size: 14px;
   line-height: 1.5;
 }
 
 .footer__text {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   line-height: 1.5;
 }
