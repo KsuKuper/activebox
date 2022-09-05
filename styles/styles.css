@@ -500,3 +500,19 @@ p {
 .designer {
   color: #ffffff;
 }
+
+/*==================MEDIA
+====================================================*/
+
+@media (max-width: 1024px) {
+  .intro__title {
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .intro__title {
+    font-size: 40px;
+  }
+}
